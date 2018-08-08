@@ -17,8 +17,8 @@
 package io.confluent.examples.streams;
 
 import brave.kafka.clients.KafkaTracing;
+import brave.kafka.streams.TracingKafkaClientSupplier;
 import io.confluent.examples.streams.tracing.TracingHelper;
-import io.confluent.examples.streams.tracing.TracingKafkaClientSupplier;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KafkaStreams;
